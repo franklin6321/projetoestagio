@@ -1,0 +1,202 @@
+.header {
+    background: #D13A43;
+    color: #fff;
+    font-size: 1.2em;
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.35);
+    
+
+}
+
+.footer {
+    background: #D13A43;
+    color: #fff;
+    font-size: 1em;
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px;
+    position: fixed;
+    width: 100%;
+    height: 75px;
+    left: 0;
+    
+    
+    bottom: 0;
+    
+
+
+}
+
+.icons{
+    
+    margin-top: -7px;
+    cursor: pointer;
+    
+}
+
+.actions{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.actions button{
+    padding: 10px;
+    border-radius: 20px;
+    border: 0;
+    background: #D13A43;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+.containerContent {
+    width: 90%;
+    max-width: 1100px;
+    margin: 10px auto;
+    background: #D13A43;
+    color: #fff;
+    font-size: 1em;
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+    text-decoration: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.35);
+}
+
+.link{
+    text-decoration: none;
+}
+
+
+
+.wellcome {
+    color: #FFFFFF;
+    font-size: 2em;
+    margin-bottom: 20px;
+
+}
+
+.info {
+    color: #B2ADAD;
+
+}
+
+.img {
+    width: 90%;
+    max-width: 900px;
+
+}
+
+.containerGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.flexLogin {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+}
+
+.titleLogin {
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3em;
+    line-height: 75px;
+    color: #646363;
+    
+}
+
+.inputText {
+    border: 2px solid #F9A826;
+    backdrop-filter: blur(4px);
+    border-radius: 40.5px;
+    padding: 15px 20px;
+    margin: 10px 0;
+    color: #AEAEAE;
+    font-size: 1.1em;
+}
+
+.inputText::placeholder {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.1em;
+    color: #AEAEAE;
+}
+
+.optionsLogin {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+
+.linkEsqSenha,
+.inputCheckbox {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.9em;
+    line-height: 23px;
+
+    color: #F9A826;
+}
+
+.inputCheckbox {
+    color: #7B7A79;
+    cursor: pointer;
+}
+
+.inputCheckbox input {
+    margin-right: 5px;
+}
+
+.btnLogin {
+    color:#fff;
+    text-transform: uppercase;
+    background: #F9A826;
+    border: 2px solid #F9A826;
+    box-sizing: border-box;
+    border-radius: 40.5px;
+    padding: 15px 20px;
+    margin: 10px 0;
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    cursor:pointer;
+}
+
+.btnLogin:hover {
+    background: #e08e0a;
+    border: 2px solid #e08e0a;
+}
+
+.cad {
+    align-self: center;
+    color: #7B7A79;
+}
+.cad a{
+   text-decoration: none;
+   font-weight: 600;
+   text-transform: capitalize;
+   font-size: 0.975em;
+   color:  #F9A826;
+}
+
+@media screen and (max-width: 700px){
+    
+    .containerGrid {
+        display: grid;
+        grid-template-columns:1fr;
+    }
+    .img{
+        margin: 0 auto;
+    }
+    .titleLogin{
+        text-align: center;
+    }
+}
